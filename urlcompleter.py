@@ -2,6 +2,8 @@
 
 import os.path, sys
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), os.path.pardir)))
+
+# ErrorManager class
 from errormanager.errormanager import ErrorManager
 
 class URLCompleter:
